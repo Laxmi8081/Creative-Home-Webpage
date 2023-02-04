@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>Website for Quates</title>
+<style>
+*{
+margin:0;
+padding:0;
+}
+.wrapper{
+ width:1170px;
+margin:auto;
+}
+body{
+background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("wallpaper7.jpg");
+background-repeat: no-repeat;
+height: 100vh;
+background-position:center center;
+position: relative;
+width: 100%;
+}
+.nav-area{
+ float:right;
+list-style: none;
+padding: 20px;
+ }
+.nav-area li{
+ display: inline-block;
+}
+.nav-area li a{
+ color: #fff;
+ text-decoration:none;
+padding: 2px 20px;
+font-family: poppins;
+font-size: 20px;
+  transition: all 0.5s;
+}
+.nav-area li a:hover{
+ background: #fff;
+color:#333;
+
+}
+.logo{
+border: 2px solid black;
+width:210px;
+position: relative;
+overflow: hidden;
+}
+.logo img{
+width: 200px;
+float: left;
+border: 5px solid black;
+}
+.content{
+ background:rgba(0,0,0,0.8);
+position:absolute;
+top: 0;
+left:-100%;
+height:210px;
+width:210px;
+color:#fff;
+padding: 20px;
+box-sizing: border-box;
+transition: all 0.5s;
+}
+.logo:hover .content{
+left:0;
+}
+p{
+ border-top: 1px solid white;
+border-bottom: 1px solid white;
+padding: 20px 0;
+}
+.Welcome-text{
+ position: absolute;
+margin: 100px 360px;
+text-align: center;
+}
+.welcome-text h1{
+ text-align: center;
+color: #fff;
+text-transform: uppercase;
+font-size: 60px;
+}
+.welcome-text a{
+border: 1px solid #fff;
+padding: 10px 25px;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 14px;
+margin-top: 20px;
+display: inline-block;
+color: #fff;
+}
+.welcome-text a:hover{
+ background:#fff;
+color:#333;
+}
+</style>
+<body>
+<div class="wrapper">
+<ul class="nav-area">
+<li><a href="sayari.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="create.html">Create</a></li>
+<li><a href="gmail.html">Gmail</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="heart.html">Heart</a></li>
+</ul>
+<div class="logo">
+<img src="vibes.png">
+<div class="content">
+<h2>Quotes</h2>
+<p>A Good Vibe State of Mind</p>
+</div>
+</div>
+
+</div>
+<div class="Welcome-text">
+<h1>We are Creative</h1>
+<li><a href="contact.html">Contact Us</a></li>
+</div>
+</body>
+</html>
